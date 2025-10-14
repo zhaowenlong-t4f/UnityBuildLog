@@ -1,0 +1,19 @@
+﻿{
+    "normalize_rules": [
+        {
+            "name": "normalize_path_separators",
+            "pattern": "\\\\+",
+            "replace_with": "/"
+        },
+        {
+            "name": "normalize_line_numbers",
+            "pattern": "\\(at line (\\d+)\\)",
+            "replace_with": " (line $1)"
+        },
+        {
+            "name": "normalize_quotes",
+            "pattern": "['\"]([^'\"]*)['\"]",
+            "replace_with": "\"$1\""
+        }
+    ]
+}

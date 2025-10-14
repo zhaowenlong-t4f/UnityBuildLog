@@ -1,0 +1,23 @@
+﻿{
+    "clean_rules": [
+        "\\x1B\\[[0-?]*[ -/]*[@-~]",
+        "^\\[?\\d{2,4}[-/]\\d{1,2}[-/]\\d{1,2}[T ]\\d{1,2}:\\d{1,2}(:\\d{1,2})?([.,]\\d{1,6})?(Z|[+-]\\d{2}:?\\d{2})?\\]?\\s*",
+        "^\\[?\\d{1,2}:\\d{1,2}(:\\d{1,2})?([.,]\\d{1,6})?\\]?\\s*",
+        "\\r",
+        "[\\u4e00-\\u9fff]{2,}.*?(?=\\n|$)",
+        "^\\s+|\\s+$",
+        "^(?:dev_X1-\\d+|master-little_.*|master_X1-\\d+|master_server_.*)$",
+        "^client.*[+-]?$|^client.*\\+-$",
+        "^\\.\\.\\./.*[+-]?$|^\\.\\.\\./.*\\+-$",
+        "^create mode .*",
+        "^Requirement already satisfied:.*",
+        "^Removing client/.*",
+        "^Filtering content: .*",
+        "^start export .*",
+        "^- \\[deleted\\] \\(none\\) -> .*",
+        "^xcfg\\.\\w+ export conf count = \\d+$",
+        "^(com.tfw.|com.tgs.|com.unity.|com.cysharp.|com.coffee.|com.google.|com.tap4fun.|com.handzlikchris).*"
+    ],
+    "ignore_patterns": [
+    ]
+}
