@@ -1,0 +1,14 @@
+README.md
+setup.py
+tests/__init__.py
+tests/log_parser/__init__.py
+tests/log_parser/test_base.py
+tests/log_parser/test_config.py
+tests/log_parser/test_file_handlers.py
+tests/log_parser/test_log_reader.py
+tests/log_parser/utils.py
+unity_build_log.egg-info/PKG-INFO
+unity_build_log.egg-info/SOURCES.txt
+unity_build_log.egg-info/dependency_links.txt
+unity_build_log.egg-info/requires.txt
+unity_build_log.egg-info/top_level.txt

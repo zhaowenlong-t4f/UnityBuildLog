@@ -1,3 +1,6 @@
 ﻿.venv/
 .pytest_cache/
 __pycache__/
+benchmark_results/
+logs/
+benchmark_results_*

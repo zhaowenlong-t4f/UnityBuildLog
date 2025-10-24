@@ -1,0 +1,18 @@
+﻿{
+    "cache": {
+        "default_max_size": 104857600,
+        "strategies": {
+            "lru": {
+                "enabled": true
+            },
+            "ttl": {
+                "enabled": true,
+                "default_ttl": 300
+            }
+        },
+        "monitoring": {
+            "enabled": true,
+            "stats_interval": 5
+        }
+    }
+}

@@ -1,0 +1,29 @@
+﻿{
+    "reader": {
+        "chunk_size": 8388608,
+        "encoding": "utf-8",
+        "supported_extensions": [".txt", ".log", ".gz"],
+        "buffer_size": 4096,
+        "max_line_length": 1048576,
+        "compression": {
+            "enable_gzip": true,
+            "gzip_buffer_size": 65536
+        },
+        "performance": {
+            "enable_caching": true,
+            "cache_size": 104857600,
+            "enable_parallel": false,
+            "max_workers": 4
+        },
+        "error_handling": {
+            "max_retries": 3,
+            "retry_delay": 1.0,
+            "skip_corrupted_lines": true
+        },
+        "monitoring": {
+            "enable_stats": true,
+            "stats_interval": 5.0,
+            "memory_threshold": 0.8
+        }
+    }
+}
