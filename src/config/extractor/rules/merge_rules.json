@@ -1,0 +1,6 @@
+﻿{
+	"merge_rules": [
+		{"type": "error", "merge_distance": 10},
+		{"type": "warning", "merge_distance": 5}
+	]
+}

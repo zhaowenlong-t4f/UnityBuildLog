@@ -1,0 +1,7 @@
+﻿{
+	"warning_patterns": [
+		"warning",
+		"deprecated",
+		"caution"
+	]
+}

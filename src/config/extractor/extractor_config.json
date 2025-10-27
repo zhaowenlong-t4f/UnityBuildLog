@@ -1,0 +1,28 @@
+﻿{
+	"extractor": {
+		"normalizer": {
+			"timestamp_format": "%H:%M:%S",
+			"max_line_length": 1048576,
+			"strip_ansi": true
+		},
+		"context": {
+			"window_size": 5,
+			"min_context_lines": 2,
+			"max_context_lines": 10
+		},
+		"patterns": {
+			"cache_size": 1000,
+			"optimization_level": 2
+		},
+		"analysis": {
+			"semantic_depth": "deep",
+			"causality_analysis": true,
+			"max_relation_distance": 10
+		},
+		"aggregation": {
+			"similarity_threshold": 0.85,
+			"max_merge_distance": 20,
+			"min_importance_score": 0.3
+		}
+	}
+}

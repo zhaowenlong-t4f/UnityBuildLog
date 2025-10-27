@@ -34,7 +34,7 @@ src/log_parser/extractor/
     ├── importance_calc.py     # 重要性计算器
     └── validators.py          # 数据验证工具
 
-config/extractor/              # 提取器配置
+src/config/extractor/              # 提取器配置
 ├── __init__.py
 ├── config_manager.py          # 配置管理器
 ├── extractor_config.json      # 主配置文件

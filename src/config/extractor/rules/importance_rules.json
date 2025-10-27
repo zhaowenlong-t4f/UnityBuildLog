@@ -1,0 +1,7 @@
+﻿{
+	"importance_rules": [
+		{"type": "error", "score": 1.0},
+		{"type": "fatal", "score": 1.0},
+		{"type": "warning", "score": 0.5}
+	]
+}

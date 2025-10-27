@@ -1,0 +1,7 @@
+﻿{
+	"error_patterns": [
+		"error",
+		"fatal error",
+		"exception"
+	]
+}

@@ -1,0 +1,7 @@
+﻿{
+	"stack_patterns": [
+		"stack trace",
+		"at ",
+		"callstack"
+	]
+}

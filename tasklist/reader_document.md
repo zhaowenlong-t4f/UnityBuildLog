@@ -30,7 +30,7 @@ src/log_parser/
 │   │   └── memory_monitor.py          # 内存使用监控
 │   └── log_reader.py                  # 主要的LogReader类实现
 
-config/
+src/config/
 ├── log_parser/                        # 日志解析相关配置
 │   ├── __init__.py
 │   ├── config_manager.py              # 配置管理器实现
